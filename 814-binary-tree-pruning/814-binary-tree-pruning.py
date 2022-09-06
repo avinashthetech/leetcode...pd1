@@ -4,6 +4,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+#postord-->left right root
 class Solution:
     def pruneTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
         """ if not root: return None
