@@ -8,7 +8,7 @@ class Solution:
             for p2 in points:
                 if p1 == p2: continue
                 if p2[0] == p1[0]:
-                    m['na'] += 1
+                    m['inf'] += 1
                     continue 
                 slope = (p2[1] - p1[1]) / (p2[0] - p1[0])
                 m[slope] += 1
