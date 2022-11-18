@@ -1,7 +1,7 @@
 class Solution:
     def maxAbsoluteSum(self, nums: List[int]) -> int:
-#         mixc=nums[0]
-#         cmix=nums[0]
+#         minc=nums[0]
+#         cmin=nums[0]
         
 #         maxc=nums[0]
 #         cmax=maxc
@@ -9,8 +9,8 @@ class Solution:
 #             cmax=max(nums[i],cmax+nums[i])
 #             maxc=max(cmax,maxc)
 #         for i in range(1,len(nums)):
-#             cmix=max(nums[i],cmix+nums[i])
-#             mixc=max(cmix,mixc)
+#             cmin=min(nums[i],cmix+nums[i])
+#             mixc=min(cmin,minc)
             
 #         return max(abs(maxc),abs(mixc))
         
